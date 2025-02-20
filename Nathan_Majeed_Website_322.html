@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nathan Majeed - Personal Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+        }
+        .skills, .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill, .project {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 5px;
+            flex: 1 1 calc(33.333% - 20px);
+            box-sizing: border-box;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Nathan Majeed</h1>
+        <p>Welcome to My Personal Website</p>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! My name is Nathan Majeed and I am a student at Saint Mary's College of California. I have a passion for Social Justice, and the progression of our society through the use of technology. This website is a showcase of my skills, projects, and experiences.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <div class="skill">HTML</div>
+            <div class="skill">SQL</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Python</div>
+            <div class="skill">Canva</div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Ride Share Application</h3>
+                <p>In My CS 322 Class I am working on making a website with my classmates that will be a carpooling app exclusive to college campus.</p>
+            </div>
+            <div class="project">
+                <h3>Social Media Application</h3>
+                <p>I am in the think tank stages of cvreating a social media platform that I hope will cause more unity than division.</p>
+            </div>
+            <div class="project">
+                <h3>A Social Comentary Instagram page</h3>
+                <p>A page where i use my college level knowlege of history to speak on social issues.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you'd like to get in touch, feel free to reach out via email at <a href="mailto:nem9@stmarys-ca.edu">nem9@stmarys-ca.edu</a>.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Nathan. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
